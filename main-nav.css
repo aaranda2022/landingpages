@@ -1,0 +1,282 @@
+
+
+.dropdown a {
+  font-size: 18px;
+
+}
+
+.b2b-nav-width {
+  width: 1162px;
+  height: 100px;
+  margin: 0 auto ;
+
+}
+
+
+a.logo-img img {
+  width: 175px;
+  margin: 0 30px;
+  float: left;
+  padding: 10px;
+}
+
+
+.arrow {
+  border: 1px solid black;
+  border-width: 0 2px 2px 0;
+  border-color: #7d7d7d;
+  display: inline-block;
+  padding: 5px;
+  margin: 0px 4px 2px 4px;
+
+}
+
+.updown {
+  transform: rotate(45deg);
+  transition: 300ms ease all;
+  -webkit-transform: rotate(45deg);
+}
+
+/* .dropdown:hover>.dropbtn .updown {
+  transform: rotate(-135deg);
+  transition: 300ms ease all;
+  -webkit-transform: rotate(-135deg);
+} */
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ffffff;
+  border-radius: 3px;
+  color: #636363;
+  padding: 10px 10px;
+  margin: 30px 0px 0px 0px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #efefef;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0 25px 0 25px;
+}
+
+#oneDropdown{
+  margin-left: -105px;
+}
+
+#twoDropdown{
+  margin-left: -90px;
+}
+
+#threeDropdown {
+  margin-left: 140px;
+}
+
+#for-inst {
+  margin-right: 20px;
+}
+
+
+#button3 {
+  width: 190px;
+  text-align: center;
+  margin-left: 170px;
+  border: 1px solid #e3e3e3;
+  border-radius: 0px;
+
+}
+
+
+.request-btn {
+  font-family: 'Nunito';
+  background-color: #2079df;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #c3d6f6 ;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  width: 170px;
+  height: 19px;
+  padding: 15px 0px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.request-btn:hover {
+ background-color: #366bc3;
+ transition: background-color 0.5s ease;
+}
+
+/* Custom Ends*/
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+
+  margin-top: 3px;
+  display: none;
+  border-radius: 5px;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 298px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #6b6b6b;
+  border-radius: 5px;
+  padding: 10px 16px;
+  margin: 5px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.b2b-mobile-container { display: none;}
+
+/* Smaller Screens */
+
+
+@media screen and (max-width:600px) {
+/*CSS code for devices with a maximal width of 720 px */
+.b2b-nav-width {
+  display: none;
+  font-family: 'Nunito';
+}
+
+.dropdown, .request-btn {
+  display: none;
+
+}
+a.mobile-btn {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 120px;
+  background-color: #454545;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+
+
+
+
+
+/* New Styles for mobile Menu */
+
+
+.b2b-mobile-container {
+  display: block;
+  max-width: 600px;
+  margin: auto;
+  color: white;
+
+}
+
+.mobile-topnav {
+
+  max-width: 600px;
+  overflow: hidden;
+  background-color:transparent;
+  position: relative;
+}
+
+.mobile-topnav #myLinks {
+  font-family: 'Nunito';
+  display: none;
+  border: 1px solid #E3E3E3;
+  background-color: #ffffff;
+  width: 275px;
+  margin: 10px;
+  border-radius: 25px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.mobile-topnav #myLinks a {
+  color: #636363;
+  background-color: #ffffff;
+  padding:8px;
+  text-align: left;
+  font-size: 18px;
+  margin-left:0;
+
+
+}
+.mobile-topnav #myLinks a:hover {
+  color: #000000;
+  background-color: #E3E3E3;
+  border-radius: 5px;
+}
+
+p.mb-titles{
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px 10px 10px 10px;
+  color: #636363;
+  text-decoration: underline;
+
+}
+
+.mobile-topnav a {
+  color: ##636363;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.mobile-topnav a#mb-logo {
+  width: 200px;
+
+}
+
+.mobile-topnav a#mb-logo img {
+  width: 150px;
+
+}
+
+.mobile-topnav a.icon-hamburger {
+  color: #636363;
+  font-size: 33px;
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 20px;
+
+}
+
+.mobile-topnav a:hover {
+  background-color: white;
+  color: #636363;
+}
+
+.active {
+  background-color: white;
+  color: white;
+}
+
+}
